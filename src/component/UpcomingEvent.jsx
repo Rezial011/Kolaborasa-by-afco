@@ -1,0 +1,80 @@
+import React from "react";
+import pict from '../assets/logo (1).png'
+
+const events = [
+    {
+        id: 1,
+        title: '',
+        place: '',
+        desc: '',
+        image: '',
+        link: '',
+        time: '',
+    },
+    {
+        id: 2,
+        title: '',
+        place: '',
+        desc: '',
+        image: '',
+        link: '',
+        time: '',
+    },
+    {
+        id: 3,
+        title: '',
+        place: '',
+        desc: '',
+        image: '',
+        link: '',
+        time: '',
+    },
+    {
+        id: 4,
+        title: '',
+        place: '',
+        desc: '',
+        image: '',
+        link: '',
+        time: '',
+    },
+    {
+        id: 5,
+        title: '',
+        place: '',
+        desc: '',
+        image: '',
+        link: '',
+        time: '',
+    },
+]
+
+export default function UpcomingEvents() {
+    return (
+        <section className="flex flex-col items-center py-19 bg-gray-50">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#333333] mb-5 ">Upcoming Events</h1>
+            <hr className="w-43 sm:w-48 lg:w-60 h-[3px] rounded-full border-hidden mb-15"/>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-8">
+            {
+                events.map((eventt) => (
+                    <div key={eventt.id} className="upcom-event rounded-xl overflow-hidden bg-white w-[80vw] sm:w-[45vw] lg:w-[30vw] xl:w-[25vw]">
+                        <div className="h-50 relative">
+                            <span className="text-sm font-medium rounded-sm absolute right-2 top-2 bg-yellow-500 px-4 py-1">June 15-18, 2025</span>
+                            <img src={pict} className="w-full h-full object-cover bg-orange-400" alt="" />
+                        </div>
+                        <div className="p-6 pt-0">
+                            <h1 className="pt-4 text-xl text-[#333333] font-semibold">Lorem Ipsum</h1>
+                            <div className="flex gap-1 items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><path fill="#ff4d4d" d="M10 2C6.69 2 4 4.69 4 8c0 2.02 1.17 3.71 2.53 4.89c.43.37 1.18.96 1.85 1.83c.74.97 1.41 2.01 1.62 2.71c.21-.7.88-1.74 1.62-2.71c.67-.87 1.42-1.46 1.85-1.83C14.83 11.71 16 10.02 16 8c0-3.31-2.69-6-6-6m0 2.56a3.44 3.44 0 1 1 0 6.88a3.44 3.44 0 0 1 0-6.88"/></svg>
+                                <h3 className="text-gray-500 font-light">Location</h3>
+                            </div>
+                            <p className="my-3 font-light text-sm line-clamp-5 overflow-scroll text-[#333333" style={{scrollbarColor: 'transparent transparent'}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis omnis vero qui? Sit excepturi nulla labore sed et repellat soluta autem possimus impedit. Aspernatur quam quidem necessitatibus dignissimos exercitationem laudantium.</p>
+                            <button className="py-1 px-5 font-light rounded-full text-white">More Info</button>
+                        </div>
+                    </div>
+                ))
+            }
+            </div>
+        </section>
+    )
+}
