@@ -108,15 +108,15 @@ export default function PastEvents() {
 
     return (
         <>
-            <section className="events" id="events">
+            <section className="sm:px-5 md:px-15 lg:px-19 xl:px-34 py-19" id="events">
                 <div className="section-title">
                     <h2>Our Past Events</h2>
                 </div>
-                <div className="events-grid">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-8">
                     {eventsData.map((event, index) => (
                         <div 
                             key={event.id} 
-                            className={`event-card ${index === 0 ? 'event-card-highlight' : ''}`}
+                            className={`event-card ${index === 0 ? 'event-card-highlight' : ''} w-[80vw] sm:w-[45vw] lg:w-[30vw] xl:w-[25vw]`}
                         >
                             <div className="event-image">
                                 <img src={event.image} alt={event.title} />
