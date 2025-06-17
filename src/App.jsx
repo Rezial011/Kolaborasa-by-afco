@@ -9,6 +9,7 @@ import PastEvents from './component/PastEvents'
 import SuccessStories from './component/SuccesStories'
 import Testi from './component/Testi'
 import UpcomingEvents from './component/UpcomingEvent'
+import Footer from './component/Footer'
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
         <Testi />
       </section>
       <UpcomingEvents />
-      <Contact />
+      <Contact/>
+      <Footer/>
     </>
   )
 }
