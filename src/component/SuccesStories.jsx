@@ -68,7 +68,7 @@ export default function SuccessStories() {
       </h1>
       <hr
         className="w-43 sm:w-48 lg:w-60 h-[3px] rounded-full border-hidden mb-10"
-        data-aos="fade-up"
+        data-aos="zoom-in" data-aos-delay="200"
       />
       <div className="sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {stats.map((stat, i) => (

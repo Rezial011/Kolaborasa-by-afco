@@ -176,7 +176,7 @@
 /* About Section */
         .about {
             padding: 5rem 1rem;
-            background: var(--light);
+            /* background: var(--light); */
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -191,213 +191,25 @@
             padding: 0 1rem;
             position: relative;
             z-index: 10;
-        }
-        
-        .section-title {
-            text-align: center;
-            margin-bottom: 4rem;
-        }
-        
-        .section-title h2 {
-            font-size: 3.5rem;
-            font-weight: 700;
-            color: var(--text-dark);
-            margin-bottom: 1rem;
-            position: relative;
-            display: inline-block;
-        }
-        
-        .section-title h2::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 120px;
-            height: 4px;
-            background: var(--gradient);
-            border-radius: 2px;
-        }
-        
-        .about-content {
-            display: grid;
-            grid-template-columns: 1.3fr 1fr;
-            gap: 3rem;
-            align-items: center;
-            max-width: 1150px;
-            margin: 0 auto;
-        }
-        
-        .about-text {
-            opacity: 0;
-            transform: translateX(-50px);
-            transition: all 0.8s ease;
-        }
-        
-        .about-text.animate-in {
-            opacity: 1;
-            transform: translateX(0);
-        }
-        
-        .about-text p {
-            font-size: 1.3rem;
-            line-height: 1.9;
-            color: var(--text-dark);
-            margin-bottom: 2rem;
-            text-align: justify;
-            max-width: none;
-            transition: all 0.3s ease;
         }
 
-        .about-text p:hover {
-            color: var(--white);
-            transform: translateX(10px);
-        }
-        
-        .about-text p:last-child {
-            margin-bottom: 0;
-        }
-        
-        .about-visual {
-            position: relative;
-            opacity: 0;
-            transform: translateX(50px);
-            transition: all 0.8s ease 0.2s;
-        }
-        
-        .about-visual.animate-in {
-            opacity: 1;
-            transform: translateX(0);
-        }
-        
-        .decorative-elements {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            pointer-events: none;
-            z-index: 3;
-        }
-        
-        .circle {
-            position: absolute;
-            border-radius: 50%;
-            opacity: 0.8;
-        }
-        
-        .circle-1 {
-            width: 80px;
-            height: 80px;
-            background: var(--primary);
-            top: -20px;
-            right: 20px;
-            animation: float 3s ease-in-out infinite;
-        }
-        
-        .circle-2 {
-            width: 60px;
-            height: 60px;
-            background: var(--secondary);
-            bottom: 20px;
-            left: -30px;
-            animation: float 3s ease-in-out infinite 1s;
-        }
-        
-        .circle-3 {
-            width: 40px;
-            height: 40px;
-            background: var(--accent);
-            top: 50%;
-            right: -20px;
-            animation: float 3s ease-in-out infinite 2s;
-        }
-        
-        .image-container {
-            position: relative;
-            z-index: 4;
-        }
-        
-        .main-image {
-            border-radius: 20px;
-            overflow: hidden;
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-            background: var(--gradient);
-            padding: 8px;
-            transform: rotate(-2deg);
-            transition: transform 0.3s ease;
-        }
-        
-        .main-image:hover {
-            transform: rotate(0deg) scale(1.02);
-        }
-        
-        .main-image img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 15px;
-            display: block;
-        }
-        
-        .overlay-image {
-            position: absolute;
-            top: 40px;
-            right: -40px;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
-            background: linear-gradient(45deg, var(--secondary), var(--accent));
-            padding: 6px;
-            transform: rotate(3deg);
-            transition: transform 0.3s ease;
-        }
-        
-        .overlay-image:hover {
-            transform: rotate(0deg) scale(1.05);
-        }
-        
-        .overlay-image img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-            border-radius: 12px;
-            display: block;
-        }    /* About Section */
-        .about {
-            padding: 5rem 1rem;
-            background: var(--light);
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .about-container {
-            max-width: 1300px;
-            margin: 0 auto;
-            width: 100%;
-            padding: 0 1rem;
-            position: relative;
-            z-index: 10;
-        }
-        
         .section-title {
-            text-align: center;
-            margin-bottom: 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
         
-        .section-title h2 {
-            font-size: 3.5rem;
-            font-weight: 700;
+        /* .section-title h2 {
+            font-size: 48px;
+            font-weight: 600;
             color: var(--text-dark);
             margin-bottom: 1rem;
             position: relative;
             display: inline-block;
-        }
+        } */
         
-        .section-title h2::after {
+        /* .section-title h2::after {
             content: '';
             position: absolute;
             bottom: -10px;
@@ -408,10 +220,10 @@
             background: var(--gradient);
             border-radius: 2px;
         }
-        
+         */
         .about-content {
             display: grid;
-            grid-template-columns: 1.3fr 1fr;
+            grid-template-columns: 1fr 1fr;
             gap: 3rem;
             align-items: center;
             max-width: 1150px;
@@ -430,8 +242,9 @@
         }
         
         .about-text p {
-            font-size: 1.3rem;
-            line-height: 1.9;
+            font-size: 1.1rem;
+            line-height: 1.7;
+            padding: 0 15px;
             color: var(--text-dark);
             margin-bottom: 2rem;
             text-align: justify;
@@ -561,11 +374,11 @@
     background-color: #f5f5f5;
 }
 
-.events-grid {
+/* .events-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    /* gap: 2rem; */
-}
+    gap: 2rem;
+} */
 
 .event-card {
     background-color: rgb(255, 255, 255);
@@ -578,8 +391,13 @@
 
 .event-card:hover {
     transform: translateY(-10px);
+    margin: -10px 0 10px 0;
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
     background-color: rgb(255, 69, 69 );
+    color: #FFFFFF;
+}
+
+.event-card:hover span{
     color: #FFFFFF;
 }
 
@@ -1067,6 +885,10 @@ hr {
   background: var(--gradient);
 }
 
+.upcom-event p::-webkit-scrollbar {
+  display: none;
+}
+
 /* Contact */
 .contact {
   padding: 5rem 10%;
@@ -1226,9 +1048,9 @@ hr {
     margin: 1rem 0;
   }
 
-  .section-title h2 {
+  /* .section-title h2 {
     font-size: 2rem;
-  }
+  } */
 
   .stat-item {
     padding: 1rem;
@@ -1248,9 +1070,9 @@ hr {
     font-size: 0.9rem;
   }
 
-  .section-title h2 {
+  /* .section-title h2 {
     font-size: 1.8rem;
-  }
+  } */
 
   .stat-number {
     font-size: 2.5rem;
@@ -1269,9 +1091,9 @@ hr {
                 min-height: auto;
             }
             
-            .section-title h2 {
+            /* .section-title h2 {
                 font-size: 2.6rem;
-            }
+            } */
             
             .about-content {
                 grid-template-columns: 1fr;
@@ -1325,12 +1147,12 @@ hr {
             }
 
             @media (max-width: 480px) {
-                .section-title h2 {
+                /* .section-title h2 {
                     font-size: 2.2rem;
-                }
+                } */
                 
                 .about-text p {
-                    font-size: 1.1rem;
+                    font-size: 1rem;
                     text-align: left;
                 }
                 

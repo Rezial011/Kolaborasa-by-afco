@@ -66,13 +66,13 @@ export default function UpcomingEvents() {
       </h1>
       <hr
         className="w-43 sm:w-48 lg:w-60 h-[3px] rounded-full border-hidden mb-15"
-        data-aos="fade-up"
+        data-aos="zoom-in" data-aos-delay="200"
       />
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-8">
         {events.map((eventt, index) => (
           <div
             key={eventt.id}
-            className="upcom-event group hover:bg-[#FF4545] rounded-xl overflow-hidden bg-white w-[80vw] sm:w-[45vw] lg:w-[30vw] xl:w-[25vw]"
+            className="upcom-event group hover:bg-[#FF4545] rounded-xl overflow-hidden bg-white w-[80vw] sm:w-[45vw] lg:w-[30vw] xl:w-[25vw] "
             data-aos="fade-up"
             data-aos-delay={index * 150}
           >
@@ -108,7 +108,7 @@ export default function UpcomingEvents() {
                 </h3>
               </div>
               <p
-                className="my-3 font-light text-sm line-clamp-5 overflow-scroll text-[#333333] group-hover:text-white"
+                className="mt-3 mb-5 text-[15.2px] line-clamp-6 letter-spacing-wider overflow-scroll text-[#333333] group-hover:text-white"
                 style={{ scrollbarColor: "transparent transparent" }}
               >
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -116,7 +116,7 @@ export default function UpcomingEvents() {
                 repellat soluta autem possimus impedit. Aspernatur quam quidem
                 necessitatibus dignissimos exercitationem laudantium.
               </p>
-              <button className="py-1 px-5 font-light rounded-full text-white cursor-pointer hover:ms-1">
+              <button className="py-2 px-4 font-medium rounded-full text-[14.4px] text-white cursor-pointer hover:ms-1">
                 More Info
               </button>
             </div>

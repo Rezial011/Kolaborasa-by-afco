@@ -27,12 +27,16 @@ export default function About() {
     return (
         <section 
             ref={aboutRef}
-            className="about" 
+            className="about bg-gray-50" 
             id="about"
         >
             <div className="about-container">
                 <div className="section-title">
-                    <h2>About Kolaborasa</h2>
+                    <h2 className="text-center text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#333333] mb-5" data-aos="fade-up">About Kolaborasa</h2>
+                    <hr
+        className="w-43 sm:w-48 lg:w-60 h-[3px] rounded-full border-hidden mb-15"
+        data-aos="zoom-in" data-aos-delay="200"
+      />
                 </div>
                 
                 <div className="about-content">
