@@ -14,7 +14,7 @@ const TeamProfiles = () => {
       id: 2,
       name: "Rean Susanti",
       role: "Co-Founder",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
       bio: "Ahli dalam pengembangan produk digital",
     },
     {
