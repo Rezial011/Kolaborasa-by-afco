@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { TextPlugin } from "gsap/TextPlugin";
 // import logo from "../assets/logo (1).png";
-import video from "../assets/videoBanner.mp4";
+import video from "../../public/videoBanner.mp4";
 
 gsap.registerPlugin(useGSAP, TextPlugin);
 
