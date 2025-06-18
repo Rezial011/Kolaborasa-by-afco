@@ -129,7 +129,7 @@ export default function PastEvents() {
               className={`event-card w-[80vw] sm:w-[45vw] lg:w-[30vw] xl:w-[25vw] ${
                 index === 0 ? "event-card-highlight" : ""
               } `}
-              data-aos="fade-up"
+              // data-aos="fade-up"
             >
               <div className="event-image">
                 <img src={event.image} alt={event.title} />
