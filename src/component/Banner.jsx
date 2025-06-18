@@ -2,8 +2,8 @@ import { React, useEffect } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { TextPlugin } from "gsap/TextPlugin";
-import logo from "../assets/logo (1).png";
-import video from "../assets/video-banner.mp4";
+// import logo from "../assets/logo (1).png";
+import video from "../assets/videoBanner.mp4";
 
 gsap.registerPlugin(useGSAP, TextPlugin);
 
