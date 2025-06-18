@@ -4,18 +4,14 @@ import bogor from "../assets/bogorfest.png";
 import braga from "../assets/braga.png";
 import jajanan from "../assets/jajanan.png";
 
-//assets image untuk detail gambar di dalam learn more
-//bogorfest
 import senam from "../assets/bogorfest/senam.png";
 import cek from "../assets/bogorfest/cekMedis.png";
 import crowd from "../assets/bogorfest/crowd.png";
 
-//braga
 import ngabuburit from "../assets/braga/ngabuburit.png";
 import jajan from "../assets/braga/jajan.png";
 import makan from "../assets/braga/makan.png";
 
-//jajanan viral
 import night from "../assets/jajananViral/night.png";
 import view from "../assets/jajananViral/view.png";
 import nightView from "../assets/jajananViral/nightView.png";
@@ -23,7 +19,6 @@ import nightView from "../assets/jajananViral/nightView.png";
 export default function PastEvents() {
   const [selectedEvent, setSelectedEvent] = useState(null);
 
-  // Data event dengan detail lengkap
   const eventsData = [
     {
       id: 1,
@@ -31,105 +26,80 @@ export default function PastEvents() {
       date: "24-27 August 2023",
       location: "Stadion Pakansari, Bogor",
       image: bogor,
-      description:
-        "A massive festival featuring music performances, art shows, exhibitions, and culinary delights.",
-      fullDescription:
-        "BogorFest 2023 was a spectacular 4-day festival that brought together over 50,000 visitors from across Indonesia. The event featured more than 100 local and international artists, 80 food vendors, art exhibitions, and cultural performances. This festival became one of the largest cultural events in West Java, showcasing the rich heritage and modern creativity of Bogor.",
+      description: "A massive festival featuring music performances, art shows, exhibitions, and culinary delights.",
+      fullDescription: "BogorFest 2023 adalah festival besar di Bogor yang menampilkan konser musik, pemeriksaan kesehatan gratis, dan senam pagi bersama warga.",
+      attendance: 5000,
+      artists: 12,
       highlights: [
-        "50+ Musical performances from local and international artists",
-        "80+ Food vendors featuring traditional and modern cuisine",
-        "Art exhibitions from 30+ local artists",
-        "Cultural performances and traditional dance shows",
-        "Interactive workshops and community activities",
+        "Senam massal bersama 1000 peserta",
+        "Pemeriksaan medis gratis",
+        "Penampilan band lokal"
       ],
-      gallery: [
-        senam,
-        cek, // placeholder images for demo
-        crowd,
-      ],
-      attendance: "50,000+ visitors",
-      artists: "50+ performers",
+      gallery: [senam, cek, crowd]
     },
     {
       id: 2,
       title: "Braga Ngabuburit Festival",
-      date: "15 March - 6 April 2025",
+      date: "14 March - 10 April 2025",
       location: "Braga City Walk, Bandung",
       image: braga,
-      description:
-        "A Ramadan-themed culinary festival featuring 19 food booths, cultural performances, and religious activities.",
-      fullDescription:
-        "Braga Ngabuburit Festival was a month-long celebration during Ramadan that transformed Braga Street into a vibrant cultural hub. The festival combined traditional Islamic values with modern festival experiences, featuring halal culinary experiences, spiritual activities, and community bonding events.",
+      description: "A Ramadan-themed culinary festival featuring 19 food booths, cultural performances, and religious activities.",
+      fullDescription: "Festival ngabuburit di Braga dengan jajanan khas Ramadhan, pertunjukan budaya, dan buka puasa bersama.",
+      attendance: 3000,
+      activities: 8,
       highlights: [
-        "19 specialized halal food booths",
-        "Daily breaking fast (Iftar) communal events",
-        "Traditional Islamic music performances",
-        "Religious lectures and spiritual activities",
-        "Community charity drives and social activities",
+        "19 booth kuliner khas Ramadhan",
+        "Live music sore hari",
+        "Lomba adzan dan ceramah"
       ],
-      gallery: [
-        ngabuburit,
-        jajan, // placeholder images for demo
-        makan,
-      ],
-      attendance: "25,000+ visitors",
-      duration: "23 days",
+      gallery: [ngabuburit, jajan, makan]
     },
     {
       id: 3,
-      title: "Jajanan Viral 2024",
-      date: "June - July 2024",
-      location: "Botani Square Mall, Bogor",
+      title: "Jajanan Viral 2025 Paradise Walk Serpong",
+      date: "16 June - 15 Juni 2024",
+      location: "Paradise Walk Serpong, Tangerang Selatan",
       image: jajanan,
-      description:
-        "A family-friendly event featuring colorful activities for kids, music performances, and diverse culinary experiences.",
-      fullDescription:
-        "Jajanan Viral 2024 was a month-long family festival designed to create joyful memories for children and parents. The event featured interactive play zones, educational workshops, colorful entertainment, and family-friendly dining experiences in a safe, indoor environment.",
+      description: "A family-friendly event featuring colorful activities for kids, Game Night: Indo National Team Live, and diverse culinary experiences.",
+      fullDescription: "Event kuliner kekinian dengan berbagai jajanan viral, hiburan malam, dan area bermain untuk anak-anak.",
+      attendance: 4000,
+      duration: "1 months",
       highlights: [
-        "Interactive color-themed play zones",
-        "Children's cooking workshops and food education",
-        "Family entertainment shows and puppet performances",
-        "Art and craft activities for kids",
-        "Parent-child bonding activities and games",
+        "Makan malam di bawah lampu hias",
+        "Stand makanan TikTok viral",
+        "Nobar Timnas"
       ],
-      gallery: [
-        night,
-        view, // placeholder images for demo
-        nightView,
-      ],
-      attendance: "15,000+ families",
-      activities: "20+ interactive zones",
+      gallery: [night, view, nightView]
     },
   ];
 
   const openPopup = (event) => {
     setSelectedEvent(event);
-    document.body.style.overflow = "hidden"; // Prevent background scrolling
+    document.body.style.overflow = "hidden";
   };
 
   const closePopup = () => {
     setSelectedEvent(null);
-    document.body.style.overflow = "unset"; // Restore scrolling
+    document.body.style.overflow = "unset";
   };
 
   return (
     <>
       <section className="flex flex-col items-center bg-gray-50" id="events">
         <div className="section-title">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#333333] mb-5" data-aos="fade-up">Our Past Events</h2>
-          <hr
-        className="w-43 sm:w-48 lg:w-60 h-[3px] rounded-full border-hidden mb-15"
-        data-aos="zoom-in" data-aos-delay="200"
-      />
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#333333] mb-5" data-aos="fade-up">
+            Our Past Events
+          </h2>
+          <hr className="w-43 sm:w-48 lg:w-60 h-[3px] rounded-full border-hidden mb-15" data-aos="zoom-in" data-aos-delay="200" />
         </div>
+
         <div className="events-grid grid sm:grid-cols-2 lg:grid-cols-3 gap-5 xl:gap-8">
           {eventsData.map((event, index) => (
             <div
               key={event.id}
-              className={`event-card w-[80vw] sm:w-[45vw] lg:w-[30vw] xl:w-[25vw] ${
-                index === 0 ? "event-card-highlight" : ""
-              } `}
-              // data-aos="fade-up"
+              className={`event-card w-[80vw] sm:w-[45vw] lg:w-[30vw] xl:w-[25vw]`}
+              data-aos="fade-up"
+              data-aos-delay={index * 100}
             >
               <div className="event-image">
                 <img src={event.image} alt={event.title} />
@@ -154,7 +124,6 @@ export default function PastEvents() {
         </div>
       </section>
 
-      {/* Event Popup */}
       <EventPopup event={selectedEvent} onClose={closePopup} />
     </>
   );
