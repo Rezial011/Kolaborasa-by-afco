@@ -66,7 +66,7 @@ export default function PastEvents() {
     },
     {
       id: 2,
-      title: "Braga Ngabuburit Festival",
+      title: "Braga Ngabuburit Festival 2025",
       date: "14 March - 10 April 2025",
       location: "Braga City Walk, Bandung",
       image: braga,
@@ -84,7 +84,7 @@ export default function PastEvents() {
     {
       id: 3,
       title: "Jajanan Viral 2025 Paradise Walk Serpong",
-      date: "16 June - 15 Juni 2024",
+      date: "16 June - 15 Juni 2025",
       location: "Paradise Walk Serpong, Tangerang Selatan",
       image: jajanan,
       description: "A family-friendly event featuring colorful activities for kids, Game Night: Indo National Team Live, and diverse culinary experiences.",
@@ -100,7 +100,7 @@ export default function PastEvents() {
     },
     {
       id: 4,
-      title: "Festival Jajanan Bango 2024",
+      title: "Festival Jajanan Bango 2022",
       date: "28-30 Oktober 2022",
       location: "GBK Senayan, Jakarta",
       image: bango,

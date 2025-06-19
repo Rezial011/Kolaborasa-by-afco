@@ -99,7 +99,9 @@ export default function UpcomingEvents() {
                 necessitatibus dignissimos exercitationem laudantium.
               </p> */}
               <button className="py-2 px-4 mt-5 font-medium rounded-full text-[14.4px] text-white cursor-pointer hover:ms-1">
-                More Info
+                <a href="#contact">
+                    More Info
+                </a>
               </button>
             </div>
           </div>

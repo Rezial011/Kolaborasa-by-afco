@@ -1,6 +1,6 @@
 import React from "react";
-import kuliner from '../assets/kuliner.jpg';
-import people from '../assets/people.png';
+import kuliner from '../assets/braga/braga4.png';
+import people from '../assets/jajananViral/javiral4.png';
 
 export default function About() {
     return (
