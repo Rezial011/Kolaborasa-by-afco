@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import pict from "../assets/logo (1).png";
+import pict from "../assets/comingSoon.jpg";
 
 const events = [
   {
@@ -24,24 +24,6 @@ const events = [
   },
   {
     id: 3,
-    title: "",
-    place: "",
-    desc: "",
-    image: "",
-    link: "",
-    time: "",
-  },
-  {
-    id: 4,
-    title: "",
-    place: "",
-    desc: "",
-    image: "",
-    link: "",
-    time: "",
-  },
-  {
-    id: 5,
     title: "",
     place: "",
     desc: "",
@@ -77,9 +59,9 @@ export default function UpcomingEvents() {
             data-aos-delay={index * 150}
           >
             <div className="h-50 relative overflow-hidden flex items-center justify-center">
-              <span className="text-sm text-white font-medium rounded-sm absolute right-2 top-2 bg-[#ff4545] px-4 py-1">
+              {/* <span className="text-sm text-white font-medium rounded-sm absolute right-2 top-2 bg-[#ff4545] px-4 py-1">
                 June 15-18, 2025
-              </span>
+              </span> */}
               <img
                 src={pict}
                 className="w-full h-full object-cover bg-orange-400 group-hover:w-[110%] group-hover:h-[110%]"
@@ -88,10 +70,10 @@ export default function UpcomingEvents() {
             </div>
             <div className="p-6 pt-0 ">
               <h1 className="pt-4 text-xl text-[#333333] group-hover:text-white font-semibold">
-                Lorem Ipsum
+                Coming Soon . .
               </h1>
               <div className="flex gap-1 items-center">
-                <svg
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="20"
@@ -102,12 +84,12 @@ export default function UpcomingEvents() {
                     fill="#ff4d4d"
                     d="M10 2C6.69 2 4 4.69 4 8c0 2.02 1.17 3.71 2.53 4.89c.43.37 1.18.96 1.85 1.83c.74.97 1.41 2.01 1.62 2.71c.21-.7.88-1.74 1.62-2.71c.67-.87 1.42-1.46 1.85-1.83C14.83 11.71 16 10.02 16 8c0-3.31-2.69-6-6-6m0 2.56a3.44 3.44 0 1 1 0 6.88a3.44 3.44 0 0 1 0-6.88"
                   />
-                </svg>
-                <h3 className="text-gray-500 font-ligh group-hover:text-white">
+                </svg> */}
+                {/* <h3 className="text-gray-500 font-ligh group-hover:text-white">
                   Location
-                </h3>
+                </h3> */}
               </div>
-              <p
+              {/* <p
                 className="mt-3 mb-5 text-[15.2px] line-clamp-6 letter-spacing-wider overflow-scroll text-[#333333] group-hover:text-white"
                 style={{ scrollbarColor: "transparent transparent" }}
               >
@@ -115,8 +97,8 @@ export default function UpcomingEvents() {
                 Facilis omnis vero qui? Sit excepturi nulla labore sed et
                 repellat soluta autem possimus impedit. Aspernatur quam quidem
                 necessitatibus dignissimos exercitationem laudantium.
-              </p>
-              <button className="py-2 px-4 font-medium rounded-full text-[14.4px] text-white cursor-pointer hover:ms-1">
+              </p> */}
+              <button className="py-2 px-4 mt-5 font-medium rounded-full text-[14.4px] text-white cursor-pointer hover:ms-1">
                 More Info
               </button>
             </div>

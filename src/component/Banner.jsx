@@ -2,8 +2,6 @@ import { React, useEffect } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { TextPlugin } from "gsap/TextPlugin";
-import logo from "../assets/logo (1).png";
-import video from "../assets/video-banner.mp4";
 
 gsap.registerPlugin(useGSAP, TextPlugin);
 
@@ -35,7 +33,7 @@ export default function Banner() {
         loop
         muted
       >
-        <source src={video} />
+        <source src="/VideoBanner.mp4" type="video/mp4" />
       </video>
     </section>
   );
