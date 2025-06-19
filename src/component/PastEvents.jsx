@@ -49,6 +49,23 @@ export default function PastEvents() {
   const eventsData = [
     {
       id: 1,
+      title: "Festival Jajanan Bango 2022",
+      date: "28-30 October 2022",
+      location: "GBK Senayan, Jakarta",
+      image: bango,
+      description: "Traditional culinary festival with various regional snacks and local cultural arts performances..",
+      fullDescription: "Festival jajanan tradisional yang menampilkan kuliner khas Bango dengan suasana tradisional dan pertunjukan seni budaya setempat.",
+      attendance: 6000,
+      vendors: 30,
+      highlights: [
+        "Jajanan tradisional khas daerah",
+        "Pertunjukan seni budaya lokal",
+        "Lomba memasak tradisional"
+      ],
+      gallery: [fjb, fjb1, fjb2, fjb3, fjb4]
+    },
+    {
+      id: 2,
       title: "BogorFest 2023",
       date: "24-27 August 2023",
       location: "Stadion Pakansari, Bogor",
@@ -58,14 +75,30 @@ export default function PastEvents() {
       attendance: 5000,
       artists: 12,
       highlights: [
-        "Senam massal bersama 1000 peserta",
-        "Pemeriksaan medis gratis",
+        "600 tenant participant",
         "Penampilan band lokal"
       ],
       gallery: [senam, cek, crowd, bogor4, bogor5]
     },
     {
-      id: 2,
+      id: 3,
+      title: "Festival Jajanan Nusantara 2024",
+      date: "2-13 October 2024",
+      location: "Baywalk Mall, Jakarta",
+      image: janus,
+      description: "A celebration of Indonesia's rich culinary heritage featuring traditional dishes from all 34 provinces.",
+      fullDescription: "Festival kuliner nusantara yang menampilkan makanan tradisional dari 34 provinsi di Indonesia, lengkap dengan demo masak dan workshop kuliner.",
+      attendance: 8000,
+      duration: "4 days",
+      highlights: [
+        "Kuliner dari 34 provinsi Indonesia",
+        "Demo masak oleh chef ternama",
+        "Workshop membuat jamu tradisional"
+      ],
+      gallery: [nusantara, nusantara1, nusantara2, nusantara3, nusantara4]
+    },
+    {
+      id: 4,
       title: "Braga Ngabuburit Festival 2025",
       date: "14 March - 10 April 2025",
       location: "Braga City Walk, Bandung",
@@ -82,9 +115,9 @@ export default function PastEvents() {
       gallery: [ngabuburit, jajan, makan, braga4, braga5]
     },
     {
-      id: 3,
+      id: 5,
       title: "Jajanan Viral 2025 Paradise Walk Serpong",
-      date: "16 June - 15 Juni 2025",
+      date: "16 June - 15 July 2025",
       location: "Paradise Walk Serpong, Tangerang Selatan",
       image: jajanan,
       description: "A family-friendly event featuring colorful activities for kids, Game Night: Indo National Team Live, and diverse culinary experiences.",
@@ -97,40 +130,6 @@ export default function PastEvents() {
         "Nobar Timnas"
       ],
       gallery: [night, view, nightView, javiral4, javiral5]
-    },
-    {
-      id: 4,
-      title: "Festival Jajanan Bango 2022",
-      date: "28-30 Oktober 2022",
-      location: "GBK Senayan, Jakarta",
-      image: bango,
-      description: "Traditional culinary festival with various regional snacks and local cultural arts performances..",
-      fullDescription: "Festival jajanan tradisional yang menampilkan kuliner khas Bango dengan suasana tradisional dan pertunjukan seni budaya setempat.",
-      attendance: 6000,
-      vendors: 30,
-      highlights: [
-        "Jajanan tradisional khas daerah",
-        "Pertunjukan seni budaya lokal",
-        "Lomba memasak tradisional"
-      ],
-      gallery: [fjb, fjb1, fjb2, fjb3, fjb4]
-    },
-    {
-      id: 5,
-      title: "Festival Jajanan Nusantara 2024",
-      date: "2-13 October 2024",
-      location: "Baywalk Mall, Jakarta",
-      image: janus,
-      description: "A celebration of Indonesia's rich culinary heritage featuring traditional dishes from all 34 provinces.",
-      fullDescription: "Festival kuliner nusantara yang menampilkan makanan tradisional dari 34 provinsi di Indonesia, lengkap dengan demo masak dan workshop kuliner.",
-      attendance: 8000,
-      duration: "4 days",
-      highlights: [
-        "Kuliner dari 34 provinsi Indonesia",
-        "Demo masak oleh chef ternama",
-        "Workshop membuat jamu tradisional"
-      ],
-      gallery: [nusantara, nusantara1, nusantara2, nusantara3, nusantara4]
     },
   ];
 
