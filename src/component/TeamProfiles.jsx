@@ -43,7 +43,7 @@ const TeamProfiles = () => {
   return (
     <div className="team-profiles-container">
       <div className="container">
-        <div className="header" data-aos="fade-down">
+        <div className="header text-center" data-aos="fade-down">
           <h1>People Behind Us</h1>
           <div className="header-line"></div>
         </div>
