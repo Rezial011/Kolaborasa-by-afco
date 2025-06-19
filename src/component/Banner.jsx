@@ -21,6 +21,7 @@ export default function Banner() {
       id="home"
     >
       <h1 className="animate z-10">Kolaborasa</h1>
+      <p className="wm animate animate-delay-1 text-center z-10 -mt-6 ">by AFCO Project</p>
       <p className="desc animate animate-delay-1 text-center z-10"></p>
       <a href="#success" className="cta-btn animate animate-delay-2 z-10">
         Discover Our Events
