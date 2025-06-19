@@ -16,7 +16,7 @@ import bogor4 from "../assets/bogorfest/bogor4.png";
 import bogor5 from "../assets/bogorfest/bogor5.png";
 
 //braga gallery
-import ngabuburit from "../assets/braga/ngabuburit.png";
+import ngabuburit from "../assets/braga/ngabuburit.jpg";
 import jajan from "../assets/braga/jajan.png";
 import makan from "../assets/braga/makan.png";
 import braga4 from "../assets/braga/braga4.png";
