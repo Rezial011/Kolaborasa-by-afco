@@ -134,9 +134,17 @@
   font-family: "Pattaya", sans-serif;
   font-size: 5rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  /* margin-bottom: 1rem; */
   background: #FA812F;
   background: linear-gradient(90deg, #fa9b2f 0%, #fab12f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero .wm {
+    background: white;
+    font-weight: bold;
+  /* background: linear-gradient(90deg, #fa9b2f 0%, #fab12f 100%); */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -1179,7 +1187,10 @@
 }
 
 .team-profiles-container .header {
-  text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  text-align: center;
   margin-bottom: 60px;
 }
 
@@ -1194,7 +1205,7 @@
 .team-profiles-container .header-line {
   width: 80px;
   height: 4px;
-  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+  background:var(--gradient);
   border-radius: 2px;
   transition: width 0.3s ease;
 }
@@ -1324,10 +1335,17 @@ hr {
             margin-bottom: 1.5rem;
             font-size: 1.5rem;
         }
+        .contact-form h3 {
+            position: absolute;
+            top: -0.8px;
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
 
         .contact-detail {
             display: flex;
             align-items: center;
+            justify-content: start;
             margin-bottom: 1.5rem;
         }
 
@@ -1361,6 +1379,7 @@ hr {
         }
 
         .form-group {
+            padding-top: 15px;
             margin-bottom: 1.5rem;
         }
 

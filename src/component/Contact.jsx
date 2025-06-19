@@ -55,7 +55,7 @@ _Pesan dikirim melalui form kontak website_`;
     <>
       <section className="contact" id="contact">
         <div className="section-title">
-          <h2>Get In Touch</h2>
+          
         </div>
 
         <div className="contact-container">
@@ -64,8 +64,8 @@ _Pesan dikirim melalui form kontak website_`;
 
             {/* Location */}
             <div className="contact-detail">
-              <div className="contact-icon">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 20 20"><path fill="#ce3434" d="M19.367 18.102L18 14h-1.5l.833 4H2.667l.833-4H2L.632 18.102C.285 19.146.9 20 2 20h16c1.1 0 1.715-.854 1.367-1.898M15 5A5 5 0 1 0 5 5c0 4.775 5 10 5 10s5-5.225 5-10m-7.7.06A2.7 2.7 0 0 1 10 2.361a2.699 2.699 0 1 1 0 5.399a2.7 2.7 0 0 1-2.7-2.7"/></svg>
+              <div className="contact-icon ps-2 pe-5">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 20 20"><path fill="#ce3434" d="M19.367 18.102L18 14h-1.5l.833 4H2.667l.833-4H2L.632 18.102C.285 19.146.9 20 2 20h16c1.1 0 1.715-.854 1.367-1.898M15 5A5 5 0 1 0 5 5c0 4.775 5 10 5 10s5-5.225 5-10m-7.7.06A2.7 2.7 0 0 1 10 2.361a2.699 2.699 0 1 1 0 5.399a2.7 2.7 0 0 1-2.7-2.7"/></svg>
               </div>
               <div className="contact-text">
                 <h4>Location</h4>
@@ -103,6 +103,26 @@ _Pesan dikirim melalui form kontak website_`;
               </div>
             </div>
 
+            {/* Instagram */}
+            <div className="contact-detail">
+              <div className="contact-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="#f40909" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"/></svg>
+              </div>
+              <div className="contact-text">
+                <h4>Instagram</h4>
+                <p>
+                  <a
+                    href="https://www.instagram.com/kolaborasa.afcoproject?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: "none", color: "inherit" }}
+                  >
+                    @kolaborasa.afcoproject (Instagram)
+                  </a>
+                </p>
+              </div>
+            </div>
+
             {/* Email */}
             <div className="contact-detail">
               <div className="contact-icon">
@@ -110,7 +130,7 @@ _Pesan dikirim melalui form kontak website_`;
               </div>
               <div className="contact-text">
                 <h4>Email</h4>
-                <p>info@kolaborasa.id</p>
+                <p>kolaborasa.byafco@gmail.com</p>
               </div>
             </div>
 
@@ -128,6 +148,7 @@ _Pesan dikirim melalui form kontak website_`;
 
           {/* Form */}
           <div className="contact-form animate animate-delay-1">
+            <h3>Get In Touch</h3>
             <form onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="name">Your Name</label>
