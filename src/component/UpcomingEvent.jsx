@@ -61,7 +61,7 @@ export default function UpcomingEvents() {
             <div className="upcom-event group hover:bg-[#FF4545] rounded-xl overflow-hidden bg-white w-[90vw] sm:w-[45vw] lg:w-[30vw] xl:w-[25vw] ">
               <div className="h-50 relative overflow-hidden flex items-center justify-center">
                 {eventt.time ? (
-                  <span className="text-sm text-white font-medium rounded-sm absolute right-2 top-2 bg-[#ff4545] px-4 py-1">
+                  <span className="text-sm text-white font-medium rounded-sm absolute right-2 top-2 z-10 bg-[#ff4545] px-4 py-1">
                     {eventt.time}
                   </span>
                 ) : (
@@ -69,7 +69,7 @@ export default function UpcomingEvents() {
                 )}
                 <img
                   src={eventt.image ? eventt.image : pict}
-                  className="w-full h-full object-cover bg-orange-400 group-hover:w-[110%] group-hover:h-[110%]"
+                  className="w-full h-full object-cover bg-orange-400 group-hover:scale-115"
                   alt=""
                 />
               </div>
