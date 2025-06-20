@@ -17,11 +17,21 @@ const Footer = () => {
         <div className="footer-col">
           <h3>Resources</h3>
           <ul className="footer-links">
-            <li><a href="https://batarmyproduction.com/">Blog</a></li>
-            <li><a href="https://batarmyproduction.com/">Gallery</a></li>
-            <li><a href="https://batarmyproduction.com/">Partner With Us</a></li>
-            <li><a href="https://batarmyproduction.com/">Vendor Registration</a></li>
-            <li><a href="https://batarmyproduction.com/">Careers</a></li>
+            <li>
+              <a href="https://batarmyproduction.com/">Blog</a>
+            </li>
+            <li>
+              <a href="https://batarmyproduction.com/">Gallery</a>
+            </li>
+            <li>
+              <a href="https://batarmyproduction.com/">Partner With Us</a>
+            </li>
+            <li>
+              <a href="https://batarmyproduction.com/">Vendor Registration</a>
+            </li>
+            <li>
+              <a href="https://batarmyproduction.com/">Careers</a>
+            </li>
           </ul>
         </div>
       </div>

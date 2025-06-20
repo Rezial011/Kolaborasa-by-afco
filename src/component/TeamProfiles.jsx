@@ -1,13 +1,13 @@
-import React, { useEffect } from 'react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import Owner from "../assets/Owner.jpg";
 import CoOwner from "../assets/CoOwner.jpg";
 import BussinesD from "../assets/BussinesD.jpg";
 
 const TeamProfiles = () => {
   useEffect(() => {
-    AOS.init({ duration: 800, once: true });
+    AOS.init({ duration: 800 });
   }, []);
 
   const teamMembers = [
@@ -18,7 +18,8 @@ const TeamProfiles = () => {
       image: Owner,
       bio: "Pemimpin kreatif di balik setiap event berkesan",
       whatsapp: "6281222200233",
-      message: "Halo Kak Ahmad Faiz, saya tertarik dengan event Kolaborasa dan ingin berdiskusi lebih lanjut sebagai Founder."
+      message:
+        "Halo Kak Ahmad Faiz, saya tertarik dengan event Kolaborasa dan ingin berdiskusi lebih lanjut sebagai Founder.",
     },
     {
       id: 2,
@@ -27,7 +28,8 @@ const TeamProfiles = () => {
       image: CoOwner,
       bio: "Visioner yang memimpin inovasi event",
       whatsapp: "6281329999130",
-      message: "Halo Kak Rean Susanti, saya ingin tahu lebih banyak tentang inovasi event Kolaborasa. Boleh diskusi, Co-Founder?"
+      message:
+        "Halo Kak Rean Susanti, saya ingin tahu lebih banyak tentang inovasi event Kolaborasa. Boleh diskusi, Co-Founder?",
     },
     {
       id: 3,
@@ -36,16 +38,17 @@ const TeamProfiles = () => {
       image: BussinesD,
       bio: "Ahli strategi di balik event-event luar biasa",
       whatsapp: "6285212603636",
-      message: "Halo Kak Septian Ali, saya tertarik untuk membahas potensi kerja sama dalam pengembangan bisnis event Kolaborasa."
-    }
+      message:
+        "Halo Kak Septian Ali, saya tertarik untuk membahas potensi kerja sama dalam pengembangan bisnis event Kolaborasa.",
+    },
   ];
 
   return (
     <div className="team-profiles-container">
       <div className="container">
-        <div className="header text-center" data-aos="fade-down">
+        <div className="header section-title text-center" data-aos="fade-down">
           <h1>People Behind Us</h1>
-          <div className="header-line"></div>
+          <div className="header-line "></div>
         </div>
 
         <div className="profiles-grid">
@@ -63,7 +66,7 @@ const TeamProfiles = () => {
                   href={waUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{ textDecoration: 'none', color: 'inherit' }}
+                  style={{ textDecoration: "none", color: "inherit" }}
                 >
                   <div className="profile-image-wrapper">
                     <div className="profile-image">

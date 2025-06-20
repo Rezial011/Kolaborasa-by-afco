@@ -14,7 +14,11 @@ export default function Navbar() {
     }
 
     // Deteksi arah scroll
-    if (window.scrollY > lastScrollY && window.scrollY > 50 && scroll === true) {
+    if (
+      window.scrollY > lastScrollY &&
+      window.scrollY > 50 &&
+      scroll === true
+    ) {
       setShowNavbar(false); // scroll down
     } else {
       setShowNavbar(true); // scroll up

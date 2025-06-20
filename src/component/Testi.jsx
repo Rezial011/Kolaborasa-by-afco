@@ -3,11 +3,11 @@ import logo from "../../public/logo-round.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import woman1 from "../assets/avatar/woman.png"
-import woman2 from "../assets/avatar/woman (1).png"
-import man1 from "../assets/avatar/man.png"
-import man2 from "../assets/avatar/man (1).png"
-import man3 from "../assets/avatar/man (2).png"
+import woman1 from "../assets/avatar/woman.png";
+import woman2 from "../assets/avatar/woman (1).png";
+import man1 from "../assets/avatar/man.png";
+import man2 from "../assets/avatar/man (1).png";
+import man3 from "../assets/avatar/man (2).png";
 
 const testimoni = [
   {
@@ -89,7 +89,9 @@ export default function Testi() {
                 <h1 className="text-[#333333] font-semibold line-clamp-2 capitalize">
                   {testi.name}
                 </h1>
-                <h2 className="text-xs line-clamp-1 font-bold capitalize">{testi.status}</h2>
+                <h2 className="text-xs line-clamp-1 font-bold capitalize">
+                  {testi.status}
+                </h2>
               </div>
             </div>
           </div>
