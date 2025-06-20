@@ -60,16 +60,17 @@ export default function SuccessStories() {
       id="success"
       className="SuccessStories flex flex-col justify-center items-center mb-5"
     >
-      <h1
-        className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-[#333333] mb-5 "
-        data-aos="fade-up"
-      >
-        Success Stories
-      </h1>
-      <hr
-        className="w-43 sm:w-48 lg:w-60 h-[3px] rounded-full border-hidden mb-10"
-        data-aos="zoom-in" data-aos-delay="200"
-      />
+      <div className="section-title">
+        <h2
+          className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#333333] mb-5 "
+          data-aos="fade-up"
+        >
+          Success Stories
+        </h2>
+        <div data-aos="zoom-in" data-aos-delay="200">
+          <hr className="header-line rounded-full border-hidden" />
+        </div>
+      </div>
       <div className="sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         {stats.map((stat, i) => (
           <div
@@ -82,7 +83,7 @@ export default function SuccessStories() {
             }`}
           >
             <h1
-              className="stat text-[42px] sm:text-5xl font-bold mb-1.5"
+              className="stat text-[50px] sm:text-5xl font-bold mb-1.5"
               ref={(el) => (refs.current[i] = el)}
             >
               {stat.num}
