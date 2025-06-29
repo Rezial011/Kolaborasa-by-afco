@@ -8,7 +8,7 @@ import Summarecon from "../assets/Summarecon.svg";
 import Tigaroda from "../assets/Tigaroda.png";
 import Indomart from "../assets/Indomart.png";
 import PWS from "../assets/PWS.png";
-import Logobraga from "../assets/Logobraga.png";
+import Logobraga from "../assets/LogoBraga.png";
 import Maestro from "../assets/Maestro.jpeg";
 import Biznet from "../assets/Biznet.png";
 import Bejo from "../assets/Bejo.webp";
