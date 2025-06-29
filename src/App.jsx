@@ -12,7 +12,8 @@ import SuccessStories from './component/SuccesStories'
 import Testi from './component/Testi'
 import UpcomingEvents from './component/UpcomingEvent'
 import Footer from './component/Footer'
-import TeamProfiles from './component/TeamProfiles';
+import TeamProfiles from './component/TeamProfiles'
+import OurClient from './component/OurClient';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Testi />
       </section>
       <UpcomingEvents />
+      <OurClient />
       <Contact/>
       <Footer/>
     </>
