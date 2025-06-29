@@ -37,11 +37,12 @@ const clients = [
 
 const OurClients = () => {
   return (
-    <section className="bg-white py-10 px-4">
-      <h2 className="text-3xl font-bold text-center mb-2">OUR CLIENTS AND PARTNERT</h2>
-      <div className="w-20 h-1 bg-yellow-400 mx-auto mb-8 rounded"></div>
-
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center">
+    <section className="py-10 px-4">
+      <div className="section-title partner flex flex-col gap-3 items-center justify-center text-center mb-10 md:mb-15" data-aos="fade-down">
+                <h1 className="font-semibold text-3xl sm:text-4xl ">Our Clients & Partners</h1>
+                <hr className="header-line h-[4px] w-14 sm:w-19 rounded-full border-hidden" style={{background: "linear-gradient(90deg, #fab12f 0%, #faa22f 100%)"}}/>
+            </div>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 place-items-center" data-aos="fade-up">
         {clients.map((client, index) => (
           <div key={index} className="w-28 h-28 flex items-center justify-center">
             <img

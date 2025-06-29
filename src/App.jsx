@@ -44,7 +44,6 @@ function App() {
         </section>
         <UpcomingEvents />
         <OurClient />
-        <Partner />
         <Contact />
         <Footer />
       </section>
