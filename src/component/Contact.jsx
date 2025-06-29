@@ -194,7 +194,7 @@ _Pesan dikirim melalui form kontak website_`;
               </div>
               <div className="contact-text">
                 <h4>Working Hours</h4>
-                <p>Monday - Friday: 9AM - 5PM</p>
+                <p>Monday - Sunday: 24 Hours</p>
               </div>
             </div>
           </div>

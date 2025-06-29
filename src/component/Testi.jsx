@@ -82,11 +82,11 @@ export default function Testi() {
             <div className="flex items-center gap-5">
               <img
                 src={testi.image}
-                className="w-13 h-13 rounded-full overflow-hidden bg-gray-200"
+                className="w-13 h-13 rounded-full overflow-hidden bg-gray-500"
                 alt=""
               />
               <div>
-                <h1 className="text-[#333333] font-semibold line-clamp-2 capitalize">
+                <h1 className=" font-semibold line-clamp-2 capitalize">
                   {testi.name}
                 </h1>
                 <h2 className="text-xs line-clamp-1 font-bold capitalize">

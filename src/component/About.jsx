@@ -4,17 +4,17 @@ import people from "../assets/jajananViral/javiral4.png";
 
 export default function About() {
   return (
-    <section className="about bg-gray-50" id="about">
+    <section className="about" id="about">
       <div className="about-container">
         <div className="section-title">
           <h2
-            className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold text-[#333333] mb-5"
+            className="text-center text-3xl sm:text-4xl lg:text-5xl font-semibold mb-5"
             data-aos="fade-up"
           >
             About Kolaborasa
           </h2>
           <div data-aos="zoom-in" data-aos-delay="200">
-            <hr className="header-line rounded-full border-hidden mb-15" />
+            <hr className="header-line rounded-full border-hidden" />
           </div>
         </div>
 
