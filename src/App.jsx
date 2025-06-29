@@ -13,7 +13,7 @@ import Testi from "./component/Testi";
 import UpcomingEvents from "./component/UpcomingEvent";
 import Footer from "./component/Footer";
 import TeamProfiles from "./component/TeamProfiles";
-import Partner from "./component/Partner";
+import OurClient from './component/OurClient';
 
 function App() {
   return (
@@ -43,6 +43,7 @@ function App() {
           <Testi />
         </section>
         <UpcomingEvents />
+        <OurClient />
         <Partner />
         <Contact />
         <Footer />

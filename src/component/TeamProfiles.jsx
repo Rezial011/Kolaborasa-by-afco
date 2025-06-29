@@ -18,8 +18,7 @@ const TeamProfiles = () => {
       image: Owner,
       bio: "Pemimpin kreatif di balik setiap event berkesan",
       whatsapp: "6281222200233",
-      message:
-        "Halo Kak Ahmad Faiz, saya tertarik dengan event Kolaborasa dan ingin berdiskusi lebih lanjut sebagai Founder.",
+      message: "Halo Kak Ahmad Faiz, saya tertarik dengan event Kolaborasa dan ingin berdiskusi lebih lanjut sebagai Founder."
     },
     {
       id: 2,
@@ -38,9 +37,8 @@ const TeamProfiles = () => {
       image: BussinesD,
       bio: "Ahli strategi di balik event-event luar biasa",
       whatsapp: "6285212603636",
-      message:
-        "Halo Kak Septian Ali, saya tertarik untuk membahas potensi kerja sama dalam pengembangan bisnis event Kolaborasa.",
-    },
+      message: "Halo Kak Septian Ali, saya tertarik untuk membahas potensi kerja sama dalam pengembangan bisnis event Kolaborasa."
+    }
   ];
 
   return (
