@@ -62,7 +62,7 @@ export default function SuccessStories() {
     >
       <div className="section-title">
         <h2
-          className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#333333] mb-5 "
+          className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-5 "
           data-aos="fade-up"
         >
           Success Stories
@@ -76,7 +76,7 @@ export default function SuccessStories() {
           <div
             key={stat.id}
             data-aos="fade-up"
-            className={`text-center m-7 ${
+            className={`text-center m-7  ${
               stat.id === 4
                 ? "md:col-start-2 md:col-end-2 lg:col-start-auto lg:col-end-auto"
                 : ""
@@ -88,7 +88,7 @@ export default function SuccessStories() {
             >
               {stat.num}
             </h1>
-            <h3 className="text-[1.05rem] md:text-lg text-gray-500">
+            <h3 className="text-[1.05rem] md:text-lg">
               {stat.text}
             </h3>
           </div>

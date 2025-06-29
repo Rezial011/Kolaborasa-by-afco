@@ -40,7 +40,7 @@ export default function Navbar() {
   return (
     <section>
       <nav
-        className={`navbar ${scroll ? "bg-[#333333]" : ""} ${
+        className={`navbar ${scroll ? "bg-[#363636]" : ""} ${
           showNavbar ? "translate-y-0" : "-translate-y-full"
         }`}
       >
