@@ -394,6 +394,7 @@
 /* Past Events Section */
 .past-events-section {
   padding: 5rem 10%;
+  position: relative;
   /* background-color: #f5f5f5; */
 }
 
@@ -1375,6 +1376,7 @@
 .contact {
   padding: 5rem 5%;
   overflow: hidden;
+  position: relative;
 }
 
 .contact-container {
@@ -1607,7 +1609,7 @@
     top: 0;
     gap: 0;
     flex-direction: column;
-    background-color: var(--dark);
+    background-color: var(--dark3);
     width: 100%;
     text-align: center;
     transition: 0.3s;
