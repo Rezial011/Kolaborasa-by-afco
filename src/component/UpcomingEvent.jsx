@@ -41,7 +41,7 @@ export default function UpcomingEvents() {
 
   return (
     <section
-      className="flex flex-col items-center pb-19"
+      className="relative flex flex-col items-center pb-19"
       id="upcoming"
     >
       <div className="section-title">
