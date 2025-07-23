@@ -30,15 +30,6 @@ const TeamProfiles = () => {
       message:
         "Halo Kak Rean Susanti, saya ingin tahu lebih banyak tentang inovasi event Kolaborasa. Boleh diskusi, Co-Founder?",
     },
-    {
-      id: 3,
-      name: "Septian Ali",
-      role: "Business Development",
-      image: BussinesD,
-      bio: "Ahli strategi di balik event-event luar biasa",
-      whatsapp: "6285212603636",
-      message: "Halo Kak Septian Ali, saya tertarik untuk membahas potensi kerja sama dalam pengembangan bisnis event Kolaborasa."
-    }
   ];
 
   return (
